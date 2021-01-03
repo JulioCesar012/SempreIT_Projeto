@@ -65,7 +65,7 @@ Clone a aplicação com o git clone, siga os passos abaixo.
 Como hospedei o projeto no Heroku, precisei deixar repositórios individuais, porém se deseja clonar para testar localmente basta clonar o repositório todo que é esse mesmo onde você está lendo, basta copiar o comando abaixo:
 
 ```bash
- $ git clone https://github.com/JulioCesar012/SempreIT_Projeto
+ $ git clone https://github.com/JulioCesar012/SempreIT_Projeto.git
 ```
 
 Reposiórios individuais:
@@ -79,7 +79,7 @@ Em seu terminal na linha de comando:
 
 ```bash
 # Clone o repositório
-$ git clone https://github.com/JulioCesar012/SempreIT_Backend
+$ git clone https://github.com/JulioCesar012/SempreIT_Backend.git
 
 # Vá para a pasta backend
 $ cd projetoSempreIT/backend
@@ -102,7 +102,7 @@ $ yarn start
 
 ```bash
 # Clone o repositório
-$ git clone https://github.com/JulioCesar012/SempreIT_Frontend
+$ git clone https://github.com/JulioCesar012/SempreIT_Frontend.git
 
 # Vá para a pasta frontend
 $ cd projetoSempreIT/frontend
