@@ -21,7 +21,7 @@
 
 ## ℹ️ Projeto
 
-PROJETO desenvolvido especialmente para a SEMPRE IT. Apliacação para controle de gestão de produtos, CRUD básico. Adicionei também um filtro nas tabelas, porém um filtro totalmente do lado do cliente, sem precisar consultar no banco de dados, apenas retorna os dados em tela, para isso utilizei alguns parâmetros para realizar a busca, e a biblioteca para tal foi a AntDesign.
+O projeto foi desenvolvido especialmente para a SEMPRE IT. Apliacação para controle de gestão de produtos, CRUD básico. Adicionei também um filtro nas tabelas, porém um filtro totalmente do lado do cliente, sem precisar consultar no banco de dados, apenas retorna os dados em tela, para isso utilizei alguns parâmetros para realizar a busca, e a biblioteca para tal foi a AntDesign.
 
 ## 💻 Objetivo
 
@@ -31,7 +31,7 @@ O projeto consiste em ter um controle e gerenciamento de produtos. Crud de lista
     <img alt="Example" title="Example" src="./screenshots/telaInicial.png" width="500px" />
 </h1>
 
-## :rocket: Tecnologias
+## 🚀 Tecnologias
 
 O projeto foi desenvolvido com as seguintes tecnologias e depêndencias:
 
