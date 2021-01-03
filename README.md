@@ -15,7 +15,7 @@
 <p align="center">
   <a href="#-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-objetivo">Objetivo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
@@ -31,7 +31,7 @@ O projeto consiste em ter um controle e gerenciamento de produtos. Crud de lista
     <img alt="Example" title="Example" src="./screenshots/telaInicial.png" width="500px" />
 </h1>
 
-## 🚀 Tecnologias
+## :rocket: Tecnologias
 
 O projeto foi desenvolvido com as seguintes tecnologias e depêndencias:
 
