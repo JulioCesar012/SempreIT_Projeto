@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="ProjetoSempreIT" title="#ProjetoSempreIT" src="./screenshots/logo.png" width="250px" />
+    <img alt="SempreIT" title="#SempreIT" src="./screenshots/logo.png" width="250px" />
 </h1>
 
 <h4 align="center">
@@ -13,17 +13,17 @@
 <a href="https://insomnia.rest/run/?label=Sempre%20IT%20Projeto%20Fullstack&uri=https%3A%2F%2Fraw.githubusercontent.com%2FJulioCesar012%2FprojetoSempreIT%2Fmaster%2Fbackend%2FSempreITRotas.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 <p align="center">
-  <a href="#information_source-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-objetivo">Objetivo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-objetivo">Objetivo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#information_source-como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
-## :information_source: Projeto
+## :information_source: Sobre o Projeto
 
-O projeto foi desenvolvido especialmente para a SEMPRE IT. Apliacação para controle de gestão de produtos, CRUD básico. Adicionei também um filtro nas tabelas, porém um filtro totalmente do lado do cliente, sem precisar consultar no banco de dados, apenas retorna os dados em tela, para isso utilizei alguns parâmetros para realizar a busca, e a biblioteca para tal foi a AntDesign.
+PROJETO desenvolvido especialmente para a SEMPRE IT. Apliacação para controle de gestão de produtos, CRUD básico. Adicionei também um filtro nas tabelas, porém um filtro totalmente do lado do cliente, sem precisar consultar no banco de dados, apenas retorna os dados em tela, para isso utilizei alguns parâmetros para realizar a busca, e a biblioteca para tal foi a AntDesign.
 
-## 💻 Objetivo
+## :computer: Objetivo
 
 O projeto consiste em ter um controle e gerenciamento de produtos. Crud de listar, inserir, editar, deletar produtos. Também funciona com autenticação assinada via token. Sendo assim provemos dois tipos de usuários. Para tal usei também o Private Route para privar rotas e autorizar a entrada delas apenas com dados repassados ao storage da apliacação.
 
@@ -60,15 +60,20 @@ O projeto foi desenvolvido com as seguintes tecnologias e depêndencias:
 
 ## :information_source: Como usar
 
-Clone a aplicação com o git clone, siga os passos abaixo:
+Clone a aplicação com o git clone, siga os passos abaixo.
+
+Reposiórios individuais:
+
+- [Backend][backend_github]
+- [Frontend][frontend_github]
 
 Em seu terminal na linha de comando:
 
 ### Instale a API Backend
 
 ```bash
-# Clone o repositório principal
-$ git clone https://github.com/JulioCesar012/projetoSempreIT.git
+# Clone o repositório
+$ git clone https://github.com/JulioCesar012/SempreIT_Backend
 
 # Vá para a pasta backend
 $ cd projetoSempreIT/backend
@@ -90,8 +95,8 @@ $ yarn start
 ### Instale o Front-end
 
 ```bash
-# Clone o repositório (se já clonou pule para o próximo passo)
-$ git clone https://github.com/JulioCesar012/projetoSempreIT.git
+# Clone o repositório
+$ git clone https://github.com/JulioCesar012/SempreIT_Frontend
 
 # Vá para a pasta frontend
 $ cd projetoSempreIT/frontend
@@ -134,4 +139,8 @@ Desenvolvido com ♥ por @JulioCesar012 :wave: [Me contate!](https://www.linkedi
 [cors]: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Controle_Acesso_CORS
 [jsonwebtoken]: https://jwt.io/
 [knex]: http://knexjs.org/
+
+[backend_github]: https://github.com/JulioCesar012/SempreIT_Backend
+[frontend_github]: https://github.com/JulioCesar012/SempreIT_Frontend
+
 [frontend]: https://github.com/axios/axios
