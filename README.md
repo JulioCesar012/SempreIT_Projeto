@@ -62,6 +62,12 @@ O projeto foi desenvolvido com as seguintes tecnologias e depêndencias:
 
 Clone a aplicação com o git clone, siga os passos abaixo.
 
+Como hospedei o projeto no Heroku, precisei deixar repositórios individuais, porém se deseja clonar para testar localmente basta clonar o repositório todo que é esse mesmo onde você está lendo, basta copiar o comando abaixo:
+
+```bash
+ $ git clone https://github.com/JulioCesar012/SempreIT_Projeto
+```
+
 Reposiórios individuais:
 
 - [Backend][backend_github]
