@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+:root {
+  --primary: 75, 219, 157;
+  --secondary: 240, 124, 73;
+  --orange-dark: 230, 102, 70;
+  --green-dark: 18, 175, 76;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: -0.03rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  font-size: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] input[type="text"]:disabled,
+input[type="email"]:disabled,
+input[type="password"]:disabled {
+  background: #f6f5f5;
+  border: 0.5px solid #dcdcdc;
+  outline: none;
+  color: #626264;
+}
+
+.btn {
+  font-size: 15px;
+}
+
+.bg-primary {
+  background-color: rgb(var(--primary)) !important;
+}
+
+.bg-secondary {
+  background-color: rgb(var(--secondary)) !important;
+}
+
+.bg-orange-dark {
+  background-color: rgb(var(--orange-dark)) !important;
+}
+
+.bg-green-dark {
+  background-color: rgb(var(--green-dark)) !important;
+}
+
+.btn-primary,
+.btn-primary:focus,
+.btn-secondary:active,
+.btn-primary:disabled,
+.btn-primary:hover {
+  background-color: rgb(var(--primary)) !important;
+  border-color: rgb(var(--primary));
+}
+
+.btn-secondary,
+.btn-secondary:focus,
+.btn-secondary:active,
+.btn-secondary:disabled,
+.btn-secondary:hover {
+  background-color: rgb(var(--secondary)) !important;
+  border-color: rgb(var(--secondary));
+}
+
+.badge {
+  font-weight: lighter;
+}
+
+.badge.badge-primary {
+  background: rgba(var(--primary), 0.1);
+  color: rgb(var(--primary));
+}
+
+.badge.badge-secondary {
+  background: rgba(var(--secondary), 0.1);
+  color: rgb(var(--secondary));
+}
+
+/* Tela dashboard */
+.box {
+  background: #fff;
+  box-shadow: 0px 0px 11px 6px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  display: inline-block;
+  padding: 50px;
+}
+
+.ant-table .botaoDeletar {
+  margin-left: 1rem;
+}
+
+.App .button_menu a {
+  color: #fff;
+}
+
+.App .button_menu {
+  background-color: #343a40;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.App .button_menu:hover {
+  background-color: #5b636b;
+}
+
+.ant-table-pagination {
+  visibility: hidden;
+}
+
+.ant-table-pagination {
+  visibility: visible;
+}
+
+/* Tela Login */
+.div-login {
+  height: 100vh;
+}
+
+.illustration {
+  width: 60%;
+}
+
+.div-login {
+  padding-top: 2rem;
+}
+
+.div-login h2 {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  color: #383d3b;
+}
+
+.box {
+  margin-top: 4rem;
+}

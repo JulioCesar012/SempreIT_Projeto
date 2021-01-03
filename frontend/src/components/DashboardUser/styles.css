@@ -1,0 +1,72 @@
+.ant-table {
+  min-height: 440px;
+}
+
+.titleHome {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.titleEditProduct {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.inputsAddProduct {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 16px;
+}
+
+.inputsAddProduct input {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #A8A8A8;
+  text-decoration: none;
+  border-radius: 5px;
+  height: 4rem;
+  margin-bottom: 3rem;
+  padding-left: 14px;
+  color: #373737;
+}
+
+
+.inputsAddProduct textarea {
+  width: 100%;
+  min-height: 4rem;
+  max-height: 200px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #A8A8A8;
+  text-decoration: none;
+  border-radius: 5px;
+  height: 4rem;
+  margin-bottom: 3rem;
+  padding-left: 14px;
+  padding-top: 1.3rem;
+  color: #373737;
+}
+
+.botaoGravar {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#botaoGravar  {
+  width: 300px;
+  min-height: 3rem;
+  border-radius: 4px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
