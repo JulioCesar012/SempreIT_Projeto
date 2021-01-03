@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src=".screenshots/logo.png" width="250px" />
+    <img alt="ProjetoSempreIT" title="#ProjetoSempreIT" src="/screenshots/logo.png" width="250px" />
 </h1>
 
 <h4 align="center">
