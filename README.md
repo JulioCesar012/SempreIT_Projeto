@@ -10,20 +10,20 @@
 </p>
 
 <p align="center">
-<a href="https://insomnia.rest/run/?label=Sempre%20IT%20Projeto%20Fullstack&uri=https%3A%2F%2Fraw.githubusercontent.com%2FJulioCesar012%2FprojetoSempreIT%2Fmaster%2Fbackend%2FSempreITRotas.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+<a href="https://insomnia.rest/run/?label=NLW%201.0%20-%20Ecoleta&uri=https%3A%2F%2Fraw.githubusercontent.com%2FDanielObara%2FNLW-1.0%2Fmaster%2Fbackend%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 <p align="center">
-  <a href="#information_source-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#computer-objetivo">Objetivo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#information_source-como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-objetivo">Objetivo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 ## :information_source: Sobre o Projeto
 
 PROJETO desenvolvido especialmente para a SEMPRE IT. Apliacação para controle de gestão de produtos, CRUD básico. Adicionei também um filtro nas tabelas, porém um filtro totalmente do lado do cliente, sem precisar consultar no banco de dados, apenas retorna os dados em tela, para isso utilizei alguns parâmetros para realizar a busca, e a biblioteca para tal foi a AntDesign.
 
-## :computer: Objetivo
+## :computer Objetivo
 
 O projeto consiste em ter um controle e gerenciamento de produtos. Crud de listar, inserir, editar, deletar produtos. Também funciona com autenticação assinada via token. Sendo assim provemos dois tipos de usuários. Para tal usei também o Private Route para privar rotas e autorizar a entrada delas apenas com dados repassados ao storage da apliacação.
 
@@ -58,15 +58,51 @@ O projeto foi desenvolvido com as seguintes tecnologias e depêndencias:
 - [Jsonwebtoken][nodejs]
 - [Knex][nodejs]
 
+## :information_source: Backend
+
+Configure seu banco de dados Mysql. Usei o xampp localmente na minha máquina linux, porém como está em produção coloquei o banco de dados mysql do [cloudclusters.io][cloudclusters] || Configure o seu database mysql no arquivo knexfile.js e dentro da pasta database configure o arquivo connectionDBMysql. Esses dois arquivos contém seus dados de acesso ao database.
+
+Não esqueça de rodar as migrations localmente assim que instalar as dependências do projeto. Rode o seguinte comando depois de ter configurado seu database:
+
+```bash
+$ yarn knex migrate:latest
+```
+
+Minhas configs no arquivo connectionDBMysql:
+
+```bash
+const mysql = require('mysql');
+
+const pool = mysql.createPool({
+  "host": "localhost",
+  "user": "root",
+  "password": "",
+  "database": "sempreitfullstack",
+});
+
+exports.pool = pool;
+```
+
+Minhas configs no arquivo knexfile:
+
+```bash
+development: {
+  client: "mysql",
+  connection: {
+    host: "localhost",
+    user: "root",
+    password: "",
+    database: "sempreitfullstack",
+  },
+  migrations: {
+    directory: "./src/database/migrations",
+  },
+},
+```
+
 ## :information_source: Como usar
 
 Clone a aplicação com o git clone, siga os passos abaixo.
-
-Como hospedei o projeto no Heroku, precisei deixar repositórios individuais, porém se deseja clonar para testar localmente basta clonar o repositório todo que é esse mesmo onde você está lendo, basta copiar o comando abaixo:
-
-```bash
- $ git clone https://github.com/JulioCesar012/SempreIT_Projeto.git
-```
 
 Reposiórios individuais:
 
@@ -79,7 +115,7 @@ Em seu terminal na linha de comando:
 
 ```bash
 # Clone o repositório
-$ git clone https://github.com/JulioCesar012/SempreIT_Backend.git
+$ git clone https://github.com/JulioCesar012/SempreIT_Backend
 
 # Vá para a pasta backend
 $ cd projetoSempreIT/backend
@@ -102,7 +138,7 @@ $ yarn start
 
 ```bash
 # Clone o repositório
-$ git clone https://github.com/JulioCesar012/SempreIT_Frontend.git
+$ git clone https://github.com/JulioCesar012/SempreIT_Frontend
 
 # Vá para a pasta frontend
 $ cd projetoSempreIT/frontend
@@ -124,7 +160,7 @@ $ yarn start
 
 O projeto foi hospedado em servidor heroku tanto frontend como backend, e o banco de dados mysql sendo utilizado direto das hospedagem 000webhost, clique no link abaixo:
 
-- [Frontend][frontend]
+- [Aplicação web funcional][frontend]
 
 Desenvolvido com ♥ por @JulioCesar012 :wave: [Me contate!](https://www.linkedin.com/in/julio-cesar-filho-759653171/)
 
@@ -145,8 +181,9 @@ Desenvolvido com ♥ por @JulioCesar012 :wave: [Me contate!](https://www.linkedi
 [cors]: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Controle_Acesso_CORS
 [jsonwebtoken]: https://jwt.io/
 [knex]: http://knexjs.org/
+[cloudclusters]: https://www.cloudclusters.io/
 
 [backend_github]: https://github.com/JulioCesar012/SempreIT_Backend
 [frontend_github]: https://github.com/JulioCesar012/SempreIT_Frontend
 
-[frontend]: https://github.com/axios/axios
+[frontend]: https://frontendsempreit.herokuapp.com/
