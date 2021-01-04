@@ -51,13 +51,13 @@ O projeto foi desenvolvido com as seguintes tecnologias e depêndencias:
 ## :computer: Backend:
 
 - [Node.js][nodejs]
-- [Express][nodejs]
-- [Mysql][nodejs]
-- [Bcrypt][nodejs]
-- [Body-parser][nodejs]
-- [Cors][nodejs]
-- [Jsonwebtoken][nodejs]
-- [Knex][nodejs]
+- [Express][express]
+- [Mysql][mysql]
+- [Bcrypt][bcrypt]
+- [Body-parser][body-parser]
+- [Cors][cors]
+- [Jsonwebtoken][jsonwebtoken]
+- [Knex][knex]
 
 ## :information_source: Backend
 
@@ -100,6 +100,10 @@ development: {
   },
 },
 ```
+
+## :information_source: Requisitos para rodar
+
+- [Yarn][yarn] e [Node.js: versão utilizada v14.15.0][nodejs]
 
 ## :information_source: Como usar
 
@@ -175,6 +179,28 @@ Rota: https://frontendsempreit.herokuapp.com/login_admin
 
   email: admnistrator2@gmail.com
   senha: 123456789
+```
+
+### Instale o projeto inteiro
+```bash 
+
+#Clone o repositório principal
+$ git clone https://github.com/JulioCesar012/SempreIT_Projeto.git
+
+#Vá para a pasta SempreIT_Projeto
+$ cd SempreIT_Projeto
+
+#Depois vá para backend
+$ cd backend
+
+#Instale as depêndencias
+$ yarn install
+
+#Agora vá ao fronted
+$ cd frontend
+
+#Instale as depêndencias do front
+$ yarn install
 ```
 
 - Observação: No projeto usei localmente xampp na sua última versão com o servidor mysql e apache rodando em minha máquina, para local, é recomendado usar o xampp e configurar seu database no arquivo knexfile.js e no connectionDBMysql. Usei Linux que é meu sistema operacional preferido. Caso queira importar as tabelas já prontas sem rodar a migração deixei um arquivo sempreitfullstack.sql no diretório /backend/src/database. Só importar no phpmyadmin e sair usando 
