@@ -140,6 +140,28 @@ input[type="password"]:disabled {
   color: #383d3b;
 }
 
+.illustration {
+  flex-direction: row;
+  width: 60%;
+  margin-right: 10rem;
+}
+
 .box {
-  margin-top: 4rem;
+  margin-top: 5rem;
+}
+
+
+@media (max-width: 600px) {
+.div-login {
+  display: flex;
+  justify-content: center;
+  }
+
+.illustration {
+  width: 100%;
+}
+
+.box {
+  margin: 10px;
+  }
 }
