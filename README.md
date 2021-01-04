@@ -156,6 +156,9 @@ $ yarn start
 
 #Login usuário comum:
 
+Rota: https://frontendsempreit.herokuapp.com/login
+	http://localhost:3000/login
+
   email: user1@gmail.com
   senha: 123456
 
@@ -163,6 +166,9 @@ $ yarn start
   senha: 123456
 
 #Login administrador:
+
+Rota: https://frontendsempreit.herokuapp.com/login_admin
+	http://localhost:3000/login_admin
 
   email: admnistrator1@gmail.com
   senha: 123456789
