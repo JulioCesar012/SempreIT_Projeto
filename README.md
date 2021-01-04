@@ -119,7 +119,7 @@ Em seu terminal na linha de comando:
 $ git clone https://github.com/JulioCesar012/SempreIT_Backend
 
 # Vá para a pasta backend
-$ cd projetoSempreIT/backend
+$ cd SempreIT_Backend
 
 # Instale as dependências
 $ yarn install
@@ -142,7 +142,7 @@ $ yarn start
 $ git clone https://github.com/JulioCesar012/SempreIT_Frontend
 
 # Vá para a pasta frontend
-$ cd projetoSempreIT/frontend
+$ cd SempreIT_Frontend
 
 # Instale as dependências
 $ yarn install
