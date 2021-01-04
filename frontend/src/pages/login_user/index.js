@@ -43,8 +43,8 @@ const LoginUser = () => {
           <div className="col-6 text-right">
             <img src={Illustration} className="img-fluid illustration" />
           </div>
-          <div className="col-6 text-center">
-            <div className="box col-8">
+           <div className="text-center">
+            <div className="box">
               <h2 className="text-center">Suas credenciais de Usuário!</h2>
               <br />
               <input
