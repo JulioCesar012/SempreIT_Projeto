@@ -153,6 +153,22 @@ $ npm install
 $ yarn start
 
 # rodando na porta 3000
+
+#Login usuário comum:
+
+  email: user1@gmail.com
+  senha: 123456
+
+  email: user2@gmail.com
+  senha: 123456
+
+#Login administrador:
+
+  email: admnistrator1@gmail.com
+  senha: 123456789
+
+  email: admnistrator2@gmail.com
+  senha: 123456789
 ```
 
 - Observação: No projeto usei localmente xampp na sua última versão com o servidor mysql e apache rodando em minha máquina, para local, é recomendado usar o xampp e configurar seu database no arquivo knexfile.js e no connectionDBMysql. Usei Linux que é meu sistema operacional preferido.
